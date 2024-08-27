@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.googleFontTitle {
+    font-family: 'Montserrat';
+}
+
+.googleFontText {
+    font-family: 'Open Sans';
+}
+
+.colorJaune {
+    color: rgb(250, 182, 55);
+}
+
+.colorRouge {
+    color: rgb(255, 72, 72);
+}
+
+.colorOrange {
+    color: #CC6119;
+}
+
+.colorGris{
+    color: #ECEFF3;
+}
+
+.colorNoir {
+    color: #232628;
+}
+
+.colorBleu {
+    color: #6C98E1;
+}
+
+.colorFondNoir {
+    background-color: rgb(35, 38, 40);
+}
+
+.colorFondGris {
+    background-color: #ECEFF3;
+}
+
+.text-offset {
+    transform: translateX(-18%); /* Décale le texte vers la gauche de 25% */
+}
+
+ul {
+    list-style-type:none;
+}
+
+li.p-2::before {
+    content: "✔️";
+    margin-left: -10px;
+    padding-right: 20px;
+}
+
+.background-image {
+    background-image: url(/images/vehicule-voyage.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-container1 {
+    background-color: rgba(250, 182, 55, 0.8);
+    padding: 60px;
+    margin-right: 20px;
+  }
+
+  .text-container2 {
+    background-color: rgba(255, 72, 72, 0.8);
+    padding: 60px;
+    margin-left: 20px;
+  }
+
+  .policeLittle {
+    font-size: 15px;
+  }
+
+ 
