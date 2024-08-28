@@ -18,7 +18,7 @@
 }
 
 .colorOrange {
-    color: #CC6119;
+    color: #cc6119;
 }
 
 .colorGris{
@@ -80,6 +80,15 @@ li.p-2::before {
 
   .policeLittle {
     font-size: 15px;
+  }
+
+  .borderColor {
+    border-color: rgba(204, 97, 25, 1);
+    border-width: 5px;
+  }
+
+  .bgGris {
+    background-color: #3d4042;
   }
 
  
