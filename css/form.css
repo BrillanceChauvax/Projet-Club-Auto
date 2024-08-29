@@ -1,0 +1,74 @@
+/* Style pour la section de l'image en fond */
+.hero-section {
+    background-image: url('/images/vehicule3.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Hauteur de la section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+/* Style pour le formulaire chevauchant l'image */
+.contact-form-wrapper {
+    position: relative;
+    margin-top: -300px; /* Ajuster pour chevaucher l'image sans toucher le footer */
+    z-index: 2;
+}
+
+.contact-form {
+    background-color: white;
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
+}
+
+/* Titre du formulaire */
+.contact-form h1 {
+    position: absolute;
+    top: -1.5rem;
+    left: 1rem;
+    background-color: white;
+    padding: 0 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    border-radius: 5px;
+}
+
+/* Style pour les cases du formulaire */
+.form-group {
+    background-color: #f8f9fa; /* Fond gris clair pour les cases */
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.message-box {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 767.98px) {
+    .contact-form-wrapper {
+        margin-top: -50px; 
+    }
+    
+    .contact-form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .message-box {
+        min-height: auto;
+    }
+}
+
+.bg-gris-form {
+    background-color: #302f2f3b;
+}
+
