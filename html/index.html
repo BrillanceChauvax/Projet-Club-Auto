@@ -9,63 +9,70 @@
     <title>Club Auto</title>
 </head>
 <body>
-    <header class="navbar colorFondNoir googleFontTitle">
-        <strong>
-        <div class="d-flex col-5">
-            <div class="d-flex navbar-text">
-                <p class="text-white">CLUB AUTO</p>
-            </div>
-            <div class=" d-flex navbar-text col-5">
-                <img src="/images/icone-adresse.png">
-                <p class="colorOrange">ADRESSE :</p>
-                <p class="colorGris">AVENUE CHARLES DE GAULLE<br>
-                    75000 PARIS</p>
-            </div>
-            <div class="d-flex navbar-text col-5">
-                <img src="/images/icon-telephone.png">
-                <p class="colorOrange">TÉLÉPHONE :</p>
-                <p class="text-white">01 23 45 67 89</p>
-            </div>
-            <div class="navbar-text col-5">
-                <p class="colorOrange">OUVERTURE :</p>
-                <p class="text-white">Du Lundi au Samedi</p>
-                <p class="colorOrange">HORAIRES :</p>
-                <p class="text-white">De 9h à 17h</p>
-            </div>
-            <div class=" d-flex navbar-text col-2">
-                <img src="/images/facebook.png" class="img-fluid">
-                <img src="/images/twitter.png" class="img-fluid">
+    <header class="navbar colorFondNoir googleFontTitle fw-bold">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-between">
+                <!-- Nom du club -->
+                <div class="col-lg-3 col-md-6 text-lg-start text-center mb-3 mb-lg-0">
+                    <p class="text-white h1"><strong>CLUB AUTO</strong></p>
+                </div>
+                <!-- Adresse -->
+                <div class="col-lg-3 col-md-6 text-lg-start text-center mb-3 mb-lg-0 d-flex align-items-center">
+                    <img src="/images/icone-adresse.png" alt="Adresse" class="me-2" style="width: 24px; height: 24px;">
+                    <div>
+                        <p class="colorOrange m-0">ADRESSE :</p>
+                        <p class="colorGris fw-normal">AVENUE CHARLES DE GAULLE<br>75000 PARIS</p>
+                    </div>
+                </div>
+                <!-- Téléphone -->
+                <div class="col-lg-3 col-md-6 text-lg-start text-center mb-3 mb-lg-0 d-flex align-items-center">
+                    <img src="/images/icon-telephone.png" alt="Téléphone" class="me-2" style="width: 24px; height: 24px;">
+                    <div>
+                        <p class="colorOrange m-0">TÉLÉPHONE :</p>
+                        <p class="text-white">01 23 45 67 89</p>
+                    </div>
+                </div>
+                <!-- Horaires et réseaux sociaux -->
+                <div class="col-lg-3 col-md-6 text-lg-end text-center d-flex flex-column flex-lg-row align-items-center justify-content-lg-end">
+                    <div class="me-lg-3 mb-2 mb-lg-0">
+                        <p class="colorOrange m-0">OUVERTURE : Du Lundi au Samedi</p>
+                        <p class="colorOrange">HORAIRES : De 9h à 17h</p>
+                    </div>
+                    <div class="d-flex">
+                        <img src="/images/facebook.png" class="img-fluid me-2" alt="Facebook" style="width: 24px; height: 24px;">
+                        <img src="/images/twitter.png" class="img-fluid" alt="Twitter" style="width: 24px; height: 24px;">
+                    </div>
+                </div>
             </div>
         </div>
     </header>
-    <nav class=" googleFontTitle colorFondGris navbar navbar-expand-lg navbar-dark">
+    
+    <nav class="googleFontTitle colorFondGris navbar navbar-expand-lg navbar-dark p-0">
         <div class="container-fluid">
-                
-            <div></div>
-                <!-- Bouton du menu burger -->
+            <!-- Bouton du menu burger -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-                <!-- Liens de navigation -->
-            <div class="collapse navbar-collapse colorGris">
+            <!-- Liens de navigation -->
+            <div class="collapse navbar-collapse googleFontText fw-bold justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                            <a class="nav-link active colorNoir" aria-current="page" href="/html/index.html">ACCUEIL</a>
+                        <a class="nav-link active bgOrange colorNoir" aria-current="page" href="/html/index.html">ACCUEIL</a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link colorNoir" href="/html/vehiculeDetails.html">VENTE</a>
+                        <a class="nav-link colorNoir" href="/html/vehiculeDetails.html">VENTE</a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link colorNoir" href="/html/vehiculeDetails.html">LOCATION</a>
+                        <a class="nav-link colorNoir" href="/html/vehiculeDetails.html">LOCATION</a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link colorNoir" href="/html/contacts.html">CONTACT</a>
+                        <a class="nav-link colorNoir" href="/html/contacts.html">CONTACT</a>
                     </li>
                 </ul>
             </div>
         </div>
-        </strong>
-    </nav>  
+    </nav>    
+
     <div class="colorFondNoir container-fluid p-0">
             <div>
                 <img class="img-fluid w-100" src="/images/vehicule1.jpg">
@@ -77,6 +84,7 @@
                     </h1> 
             </div>
     </div>
+
     <div class="container-fluid d-flex col-9 pt-5">
         <div>
             <img class="img-fluid ps-2 pe-4 pb-0 mb-0" src="/images/clients.jpg">
@@ -126,6 +134,7 @@
             <img class="img-fluid ps-4 pe-4" src="/images/entretien.jpg">
         </div>
     </div>
+
     <div class="background-image">
         <div class="container-fluid">
           <div class="d-flex col-12 justify-content-center align-items-center">
@@ -141,66 +150,184 @@
             </div>
           </div>
         </div>
-      </div>
-    <div class="colorFondNoir d-flex row pb-5">
-        <div class="text-center pt-5 d-flex justify-content-center">
-            <h2 class="d-flex justify-content-center h1 googleFontText colorGris fw-bold">VEHICULES RECENTS</h2>
-        </div>
-        <div class="d-flex container justify-content-center">
-            <hr class="borderColor col-9 pb-3">
-        </div>
-      <div>
-        <div class="d-flex justify-content-center">
-            <div class="d-flex col-9">
-                <div class="d-flex justify-content-center">
-                    <img class="col-10 pb-3" src="/images/vehicule2.jpg">
-                </div>
-                <div class="d-flex justify-content-center">
-                    <img class="col-10 pb-3" src="/images/vehicule2.jpg">
-                </div>
-                <div class="d-flex justify-content-center">
-                    <img class="col-10 pb-3" src="/images/vehicule2.jpg">
-                </div>
-            </div>
-        </div>
-        <div class="d-flex align-items-center justify-content-center">
-            <div class="container bgGris col-3">
-                <div class="d-flex justify-content-between align-items-center p-3">
-                    <div class="text-white">
-                        <p class="fw-bold googleFontText">BMW 5351, NAVI, LEATHER, ABS</p>
-                    </div>
-                    <div class="price-box bg-primary text-white p-3">
-                        <h4 class="m-0 p-0 fw-bold">5 500 €</h4>
-                    </div>
-                </div>
-                <hr class="pb-1 mt-0 bg-secondary">
-            </div>
-            <div class="container bgGris col-3">
-                <div class="d-flex justify-content-between align-items-center p-3">
-                    <div class="text-white">
-                        <p class="fw-bold googleFontText">BMW 328I, SPORT LINE BODY KIT</p>
-                    </div>
-                    <div class="price-box bg-primary text-white p-3">
-                        <h4 class="m-0 p-0 fw-bold">8 000 €</h4>
-                    </div>
-                </div>
-                <hr class="pb-1 mt-0 bg-secondary">
-            </div>
-            <div class="container bgGris col-3">
-                <div class="d-flex justify-content-between align-items-center p-3">
-                    <div class="text-white">
-                        <p class="fw-bold googleFontText">FORD EXPLORER 2015 4WD</p>
-                    </div>
-                    <div class="price-box bg-primary text-white pt-0 px-2 pb-2">
-                        <h4 class="text-end my-0"><s class="h6 text-dark">9 000 €</s></h4>
-                        <h4 class="m-0 p-0 fw-bold">8 200 €</h4>
-                    </div>
-                </div>
-                <hr class="pb-1 mt-0 bg-secondary">
-            </div>
-        </div>
-      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <div class="colorFondNoir pb-5">
+        <div class="text-center pt-5">
+            <h2 class="h1 googleFontText colorGris fw-bold">VEHICULES RECENTS</h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <hr class="borderColor col-9">
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-10 mb-3">
+                    <img class="img-fluid" src="/images/vehicule2.jpg">
+                </div>
+                <div class="col-md-4 col-10 mb-3">
+                    <img class="img-fluid" src="/images/vehicule2.jpg">
+                </div>
+                <div class="col-md-4 col-10 mb-3">
+                    <img class="img-fluid" src="/images/vehicule2.jpg">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-10 mb-3">
+                    <div class="bgGris p-3">
+                        <p class="fw-bold googleFontText text-white">BMW 5351, NAVI, LEATHER, ABS</p>
+                        <div class="price-box bg-primary text-white p-3 text-center">
+                            <h4 class="m-0 p-0 fw-bold">5 500 €</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-10 mb-3">
+                    <div class="bgGris p-3">
+                        <p class="fw-bold googleFontText text-white">BMW 328I, SPORT LINE BODY KIT</p>
+                        <div class="price-box bg-primary text-white p-3 text-center">
+                            <h4 class="m-0 p-0 fw-bold">8 000 €</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-10 mb-3">
+                    <div class="bgGris p-3">
+                        <p class="fw-bold googleFontText text-white">FORD EXPLORER 2015 4WD</p>
+                        <div class="price-box bg-primary text-white pt-0 px-2 pb-2 text-center">
+                            <h4 class="text-end my-0"><s class="h6 text-dark">9 000 €</s></h4>
+                            <h4 class="m-0 p-0 fw-bold">8 200 €</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <section aria-label="#" class="p-5 googleFontText">
+        <div class="text-center pb-5">
+          <p class="h1 fw-bold">Pourquoi nous choisir ?</p>
+        </div>
+        <div class="container pt-5">
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <div class="logo-text">
+                <img src="/images/icon1.png" alt="#">
+                <div class="text-content">
+                  <p class="fw-bold">FINANCEMENT</p>
+                  <p class="text-secondary h6 fw-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                     Aliquam repudiandae consequatur expedita suscipit quis voluptas voluptates, ipsum commodi rerum qui.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="logo-text">
+                <img src="/images/icon2.png" alt="#">
+                <div class="text-content">
+                  <p class="fw-bold">RÉACTIVITÉ DE L'ÉQUIPE TECHNIQUE</p>
+                  <p class="text-secondary h6 fw-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                     Aliquam repudiandae consequatur expedita suscipit quis voluptas voluptates, ipsum commodi rerum qui.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="logo-text">
+                <img src="/images/icon3.png" alt="#">
+                <div class="text-content">
+                  <p class="fw-bold">A L'ÉCOUTE DE NOTRE CLIENTÈLE</p>
+                  <p class="text-secondary h6 fw-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                     Aliquam repudiandae consequatur expedita suscipit quis voluptas voluptates, ipsum commodi rerum qui.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="logo-text">
+                <img src="/images/icon4.png" alt="#">
+                <div class="text-content">
+                  <p class="fw-bold">SERVICE &amp; MAINTENANCE</p>
+                  <p class="text-secondary h6 fw-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                     Aliquam repudiandae consequatur expedita suscipit quis voluptas voluptates, ipsum commodi rerum qui.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <a href="/html/contacts.html" class="btn btn-primary btn-lg">CONTACTEZ NOUS</a>
+        </div>
+    </section>
+
+    <section class="background-section mt-4">
+        <div class="content-box">
+          <h3 class="h1 googleTextTitle fw-bold">
+            <span class="main-title">CLUB AUTO</span>
+            <span class="sub-title">VENTE ET LOCATION</span>
+          </h3>
+          <p class="googleTextFont pt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt voluptate, vero quod veniam commodi tempore aspernatur illo
+            Magnam sequi neque et iste eveniet illum vitae minima, eaque, similique adipisci corrupti consectetur sed pariatur nisi molestiae</p>
+        </div>
+        <div class="triangle-container">
+            <div class="triangle"></div>
+        </div>
+    </section>
+
+    <footer class="footer colorFondNoir">
+        <div class="container">
+          <div class="row text-center text-md-start">
+            <div class="col-md-3 mb-3 mb-md-0">
+              <h4 class="fw-bold h6 googleFontTitle mb-3">
+                <span class="text-primary">CLUB</span>
+                <span class="text-white">AUTO</span>
+              </h4>
+              <p class="colorGris">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolore accusamus laudantium cumque vel mollitia aut sit optio ad</p>
+            </div>
+            <div class="col-md-3 mb-3 mb-md-0">
+              <h4 class="fw-bold text-white h6 googleFontTitle mb-3">HORAIRES D'OUVERTURE</h4>
+              <p class="colorGris mb-0">Lundi - Samedi : 9:00 - 17:00</p>
+              <p class="colorGris mt-0">Dimanche et jours fériés : Fermé</p>
+            </div>
+            <div class="col-md-3 mb-3 mb-md-0">
+              <h4 class="fw-bold text-white h6 googleFontTitle mb-3">NEWSLETTER</h4>
+              <form class="d-flex align-items-center">
+                <input type="email" class="form-control me-0" placeholder="Entrez votre email">
+                <button type="submit" class="btn ms-0 ps-0" onclick="showThankYouMessage()">
+                  <img src="/images/rss.png" alt="Newsletter" title="Valider" class="icon rounded">
+                </button>
+              </form>
+              <p class="colorGris mt-2">Inscrivez-vous pour recevoir les dernières offres</p>
+            </div>
+            <div class="col-md-3 mb-3 mb-md-0">
+              <h4 class="fw-bold text-white h6 googleFontTitle mb-4">RÉSEAUX SOCIAUX</h4>
+              <div class="d-flex justify-content-center">
+                <a href="https://www.facebook.fr" target="_blank">
+                    <img src="/images/facebook.png" alt="Facebook" title="Facebook" class="icon me-4">
+                </a>
+                <a href="https://www.twitter.fr" target="_blank">
+                    <img src="/images/twitter.png" alt="Twitter" title="Twitter" class="icon me-4">
+                </a>
+                <a href="https://www.instagram.fr" target="_blank">
+                    <img src="/images/instagram.png" alt="Instagram" title="Instagram" class="icon me-4">
+                </a>
+                <a href="https://www.google.fr" target="_blank">
+                    <img src="/images/google-plus.png" alt="Google+" title="Google+" class="icon me-4">
+                </a>
+                <a href="https://www.youtube.fr" target="_blank">
+                    <img src="/images/youtube.png" alt="Youtube" title="Youtube" class="icon me-4">
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr class="colorGris">
+          <p class="text-center mb-0 colorGris">Copyright © Club Auto - Tous droits réservés</p>
+        </div>
+      </footer>
+
+    <script>
+        function showThankYouMessage() {
+            alert('Félicitations ! Vous êtes bien inscrit à notre newsletter.');
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

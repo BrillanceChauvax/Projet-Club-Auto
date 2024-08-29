@@ -67,7 +67,7 @@ li.p-2::before {
   }
 
   .text-container1 {
-    background-color: rgba(250, 182, 55, 0.8);
+    background-color: #fab637cc;
     padding: 60px;
     margin-right: 20px;
   }
@@ -91,4 +91,85 @@ li.p-2::before {
     background-color: #3d4042;
   }
 
- 
+  .bgOrange {
+    background-color: #cc6119;
+  }
+
+  .nav-link:hover {
+    background-color: #cc6119;
+    transition: background-color 0.3s ease;
+  }
+
+  .logo-text {
+    display: flex;
+    align-items: flex-start; 
+    margin-bottom: 1rem; 
+  }
+  .logo-text img {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 20px;
+  }
+
+  .background-section {
+    position: relative;
+    background-image: url('/images/vehicule3.jpg'); 
+    background-size: cover;
+    background-position: top;
+    min-height: 620px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-box {
+    position: absolute;
+    left: 15%;
+    background: #fab637cc;
+    padding: 50px;
+    max-width: 600px; 
+  }
+
+  .content-box h3 .main-title {
+    display: block;
+    color:rgb(35, 38, 40);
+  }
+
+  .content-box h3 .sub-title {
+    display: block; 
+    color: #ECEFF3;
+  }
+
+  .triangle-container {
+    position: absolute; 
+    width: 200px; 
+    height: 200px; 
+  }
+
+  .triangle {
+    position: absolute;
+    bottom: -95px; 
+    left: -572px;
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent; 
+    border-right: 20px solid transparent;
+    border-top: 30px solid #fab637cc;
+    transform: rotate(10deg); 
+    transform-origin: bottom left;
+  }
+
+  .footer {
+    padding: 60px 20px;
+  }
+  .footer hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .footer .icon {
+    width: 40px; /* Ajustez la taille des icônes */
+    height: 40px;
+  }
+  .footer .form-control {
+    width: 100%;
+  }
