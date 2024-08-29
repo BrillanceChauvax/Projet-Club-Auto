@@ -42,7 +42,7 @@
 }
 
 .text-offset {
-    transform: translateX(-18%); /* Décale le texte vers la gauche */
+    margin-right: 33%; 
 }
 
 ul {
@@ -196,16 +196,24 @@ li.p-2::before {
 
 @media (max-width: 1000px) {
   .custom-menu-burger {
-        position: fixed;
-        top: 10px;
+        position: absolute;
+        top: -135px;
         right: 10px;
         z-index: 1050;
         border: none;    
     }
 }
 
-@media (min-width: 0px) {
+@media (max-width: 767.98px) {
   .banniere {
-    transform: translateX(0%) text-offset à déjouer
+      margin-right: 0;
+  }
+}
+
+/* Styles pour mobile */
+@media (max-width: 767.98px) {
+  .full-width-text {
+      text-align: start; /* Centre le texte */
+      width: 100%; /* Prend toute la largeur de la page */
   }
 }
