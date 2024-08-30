@@ -1,9 +1,8 @@
-/* Style pour la section de l'image en fond */
 .hero-section {
     background-image: url('/images/vehicule3.jpg'); 
     background-size: cover;
     background-position: center;
-    height: 300px; /* Hauteur de la section */
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +42,7 @@
 
 /* Style pour les cases du formulaire */
 .form-group {
-    background-color: #f8f9fa; /* Fond gris clair pour les cases */
+    background-color: #f8f9fa; 
     border-radius: 5px;
     padding: 1rem;
 }

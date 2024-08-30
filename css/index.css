@@ -66,6 +66,12 @@ li.p-2::before {
     justify-content: center;
   }
 
+  @media (max-width: 767.98px) {
+    .background-image {
+      height: 80vh;
+    }
+  }
+
 .text-container1 {
     background-color: #fab637cc;
     padding: 60px;
@@ -110,7 +116,7 @@ li.p-2::before {
     background-color: rgba(236, 239, 243, 0.5);
   }
 
-@media (max-width: 991.98px) {
+@media (max-width: 767.98px) {
     .navbar-nav {
         flex-direction: column;
     }
@@ -150,6 +156,12 @@ li.p-2::before {
     max-width: 600px; 
   }
 
+  @media ( max-width: 768px) {
+    .content-box {
+      left: 0%;
+    }
+  }
+
 .content-box h3 .main-title {
     display: block;
     color:rgb(35, 38, 40);
@@ -179,6 +191,13 @@ li.p-2::before {
     transform-origin: bottom left;
   }
 
+  @media (max-width: 1919px) {
+    .triangle,
+    .triangle-container {
+      display: none;
+    }
+  }
+
 .footer {
     padding: 60px 20px;
   }
@@ -194,7 +213,7 @@ li.p-2::before {
     width: 100%;
   }
 
-@media (max-width: 1000px) {
+@media (max-width: 767.98px) {
   .custom-menu-burger {
         position: absolute;
         top: -135px;
@@ -216,4 +235,8 @@ li.p-2::before {
       text-align: start; /* Centre le texte */
       width: 100%; /* Prend toute la largeur de la page */
   }
+}
+
+body {
+  overflow-x: hidden;
 }

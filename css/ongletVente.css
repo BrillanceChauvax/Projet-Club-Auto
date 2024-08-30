@@ -1,0 +1,71 @@
+.tab-container {
+    background-color: rgb(35, 38, 40);
+    padding: 10px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: start;
+    background-color: rgb(35, 38, 40);
+    padding-left: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin: 0;
+    color: rgb(236, 239, 243); 
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.tab.active {
+    background-color: rgb(236, 239, 243);
+    color: rgb(35, 38, 40); 
+    border-top: 2px solid #cc6119; 
+    border-top-width: 4px;
+   
+}
+
+.tab:hover {
+    background-color: rgb(236, 239, 243);
+    border-top: 2px solid #cc6119; 
+    border-top-width: 4px;
+    color: rgb(35, 38, 40);
+}
+
+.tab-content {
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.highlight {
+    border-left: 4px solid #cc6119;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkmark {
+    color: #cc6119;
+}
+
+@media (min-width: 767.99px) {
+    .content-container {
+        max-width: 50%; /* 6/12 colonnes équivalent à 50% de la largeur totale */
+        margin-left: 250px; /* Centre le conteneur */
+    }
+}
+
+@media (max-width: 767.98px) {
+    .content-container {
+        max-width: 100%; /* Pleine largeur pour les écrans plus petits */
+    }
+}
+
+.size-special {
+    font-size: 13px;
+}
