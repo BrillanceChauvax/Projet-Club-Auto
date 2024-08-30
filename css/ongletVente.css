@@ -8,6 +8,7 @@
     justify-content: start;
     background-color: rgb(35, 38, 40);
     padding-left: 4px;
+    padding-right: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -68,4 +69,16 @@
 
 .size-special {
     font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    .tabs {
+        flex-direction: column; /* Les onglets s'empilent verticalement sur les petits écrans */
+    }
+
+    .tab {
+        flex: none; /* Chaque onglet occupe toute la largeur disponible */
+        text-align: center;
+        padding: 10px;
+    }
 }

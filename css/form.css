@@ -11,14 +11,16 @@
     z-index: 1;
 }
 
-/* Style pour le formulaire chevauchant l'image */
 .contact-form-wrapper {
-    position: relative;
-    margin-top: -300px; /* Ajuster pour chevaucher l'image sans toucher le footer */
+    display: flex;
+    flex-direction: column;
+    margin-top: -20%; 
     z-index: 2;
 }
 
 .contact-form {
+    display: flex;
+    flex-wrap: wrap;
     background-color: white;
     border-radius: 0px;
     padding: 20px;
@@ -40,16 +42,14 @@
     border-radius: 5px;
 }
 
-/* Style pour les cases du formulaire */
 .form-group {
-    background-color: #f8f9fa; 
-    border-radius: 5px;
     padding: 1rem;
 }
 
 .message-box {
     display: flex;
     flex-direction: column;
+    justify-content:space-between;
 }
 
 @media (max-width: 767.98px) {
